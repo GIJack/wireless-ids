@@ -4345,8 +4345,8 @@ InfoIPVia=""
 InfoIPFwd=""
 TimeStart=""
 MyMAC=""
-appdir="/SYWorks/WIDS/"
-macoui="/SYWorks/WIDS/mac-oui.db"
+appdir="/usr/share/wids/"
+macoui="/usr/share/wids/mac-oui.db"
 PathList = ['tmp/']
 tmpdir=appdir + "tmp/"
 #global PrevIconCount
@@ -4355,7 +4355,7 @@ NullOut=" > /dev/null 2>&1"
 global LogFile
 global PrintToFile
 PrintToFile="0"
-LogFile=appdir + "log.txt"
+LogFile="/var/log/wids/wids.log"
 
  
 
