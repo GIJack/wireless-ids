@@ -1,3 +1,6 @@
+GI_Jack's fork to cleanup some bad defaults. Original: SYWorks/wireless-ids
+
+
 Wireless IDS [Intrusion Detection System] 
 =========================================
 
